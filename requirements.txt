@@ -1,7 +1,10 @@
 absl-py >= 0.7
 gin-config>=0.1.2
-numpy>=1.13.3
+numpy>=1.22.2
 scipy>=1.0.0
 six >= 1.10
-tensorflow>=1.12.0
+tensorflow>=2.11.1
 
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
